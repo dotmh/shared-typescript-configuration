@@ -1,0 +1,25 @@
+{
+  "name": "@dotmh/prettier-config",
+  "version": "1.0.0",
+  "description": "A Prettier config for DotMH.io projects",
+  "main": "index.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotmh/prettier-config.git"
+  },
+  "keywords": [
+    "Prettier",
+    "Config",
+    "DotMH",
+    "CodeStyle"
+  ],
+  "author": "Martin Haynes <oss+prettier@dotmh.io>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dotmh/prettier-config/issues"
+  },
+  "homepage": "https://github.com/dotmh/prettier-config#readme"
+}

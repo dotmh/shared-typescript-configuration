@@ -1,0 +1,31 @@
+{
+  "name": "@dotmh/linting",
+  "version": "0.1.0",
+  "description": "A Monorepo that shares linting configurations across DotMH projects",
+  "private": true,
+  "workspaces": [
+    "./packages/*"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish -ws"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotmh/linting.git"
+  },
+  "keywords": [
+    "DotMH",
+    "Liniting",
+    "ESLint",
+    "Prettier",
+    "Config"
+  ],
+  "author": "Martin Haynes <oss@dotmh.io>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dotmh/linting/issues"
+  },
+  "homepage": "https://github.com/dotmh/linting#readme"
+}

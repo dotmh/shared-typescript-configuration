@@ -1,0 +1,34 @@
+{
+  "name": "@dotmh/eslint-config-ts",
+  "version": "1.0.0",
+  "description": "A ESLint file for all DotMH Typescript projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotmh/eslint-config-ts.git"
+  },
+  "keywords": [
+    "DotMH",
+    "eslint",
+    "eslintconfig",
+    "config",
+    "typescript"
+  ],
+  "author": "Martin Haynes <oss+eslint@dotmh.io>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dotmh/eslint-config-ts/issues"
+  },
+  "homepage": "https://github.com/dotmh/eslint-config-ts#readme",
+  "dependencies": {
+    "@typescript-eslint/parser": "^5.17.0"
+  },
+  "peerDependencies": {
+    "eslint": ">8.7.0",
+    "@typescript-eslint/eslint-plugin": ">5.2.0",
+    "eslint-plugin-promise": ">5.1.1"
+  }
+}
