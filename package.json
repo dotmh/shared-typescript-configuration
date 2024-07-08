@@ -4,9 +4,13 @@
   "description": "A Monorepo that shares linting configurations across DotMH projects",
   "private": true,
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "npm publish -ws"
+    "publish": "npm publish -ws",
+    "prepare": "husky",
+    "lint:commit": "commitlint --edit",
+    "githook:commitMessage": "pnpm lint:commit"
   },
   "repository": {
     "type": "git",
@@ -24,5 +28,10 @@
   "bugs": {
     "url": "https://github.com/dotmh/linting/issues"
   },
-  "homepage": "https://github.com/dotmh/linting#readme"
+  "homepage": "https://github.com/dotmh/linting#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "husky": "^9.0.11"
+  }
 }
