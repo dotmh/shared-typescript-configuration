@@ -1,9 +1,9 @@
 name: DotMH Linting Publish Actions
 run-name: "${{ github.actor }} - ${{ github.workflow }} - ${{ github.run_number }}"
 on:
-  - push:
-      branches:
-        - main
+  push:
+    branches:
+      - 'main'
 
 jobs:
   TestAndLint:
