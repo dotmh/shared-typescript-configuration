@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "description": "A Monorepo that shares linting configurations across DotMH projects",
   "private": true,
-  "workspaces": [
-    "./packages/*"
-  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
