@@ -16,3 +16,4 @@ Configuration files for Linters used across [DotMH](https://github.com/dotmh) pr
 
 - [packages/eslint-config-ts](packages/eslint-config-ts) : Eslint Configuration for Typescript
 - [packages/prettier-config](packages/eslint-config-ts) : Prettier Configuration
+- [packages/tsconfig](packages/tsconfig/) : Typescript Configuration file - `tsconfig.json`
