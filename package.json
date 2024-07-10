@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "workspace:publish": "pnpm publish -r",
+    "workspace:publish": "pnpm publish -r --no-git-checks",
     "prepare": "husky",
     "lint:commit": "commitlint --edit",
     "githook:commitMessage": "pnpm lint:commit"

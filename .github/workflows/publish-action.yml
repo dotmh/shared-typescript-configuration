@@ -19,5 +19,9 @@ jobs:
           node-version: "20.14.0"
           cache: "pnpm"
       - run: pnpm install
+      - name: Set publishing config
+        run: pnpm config set '//registry.npmjs.org/:_authToken' "${NODE_AUTH_TOKEN}"
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
       - name: publish
         run: pnpm workspace:publish
