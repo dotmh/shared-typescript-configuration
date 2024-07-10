@@ -1,6 +1,6 @@
 {
   "name": "@dotmh/prettier-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A Prettier config for DotMH.io projects",
   "main": "index.json",
   "scripts": {

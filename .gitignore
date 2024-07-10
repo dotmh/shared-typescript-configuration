@@ -1,2 +1,4 @@
 node_modules
 .idea
+packages/**/README.md
+packages/**/LICENSE.md

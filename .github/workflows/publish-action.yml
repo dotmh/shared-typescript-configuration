@@ -23,5 +23,7 @@ jobs:
         run: pnpm config set '//registry.npmjs.org/:_authToken' "${NODE_AUTH_TOKEN}"
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+      - name: Pre Publish hook call
+        run: pnpm workspace:prePublish
       - name: publish
         run: pnpm workspace:publish

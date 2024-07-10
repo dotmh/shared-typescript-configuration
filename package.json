@@ -1,6 +1,6 @@
 {
   "name": "@dotmh/linting",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A Monorepo that shares linting configurations across DotMH projects",
   "private": true,
   "main": "index.js",
@@ -8,6 +8,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "workspace:publish": "pnpm publish -r --no-git-checks",
+    "workspace:copyFiles": "node scripts/copy.js",
+    "workspace:prePublish": "pnpm workspace:copyFiles",
     "prepare": "husky",
     "lint:commit": "commitlint --edit",
     "githook:commitMessage": "pnpm lint:commit"
