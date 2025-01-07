@@ -1,6 +1,6 @@
 {
   "name": "@dotmh/eslint-config-ts",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A ESLint file for all DotMH Typescript projects",
   "main": "index.js",
   "scripts": {
@@ -23,12 +23,11 @@
     "url": "https://github.com/dotmh/eslint-config-ts/issues"
   },
   "homepage": "https://github.com/dotmh/eslint-config-ts#readme",
-  "dependencies": {
-    "@typescript-eslint/parser": "^5.17.0"
-  },
+  "dependencies": {},
   "peerDependencies": {
-    "eslint": ">8.7.0",
-    "@typescript-eslint/eslint-plugin": ">5.2.0",
-    "eslint-plugin-promise": ">5.1.1"
+    "eslint": "^9.16.0",
+    "eslint-plugin-promise": "^7.2.1",
+    "@typescript-eslint/eslint-plugin": "^8.17.0",
+    "@typescript-eslint/parser": "^8.17.0"
   }
 }
