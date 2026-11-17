@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dotmh/prettier-config.git"
+    "url": "git+https://github.com/dotmh/shared-typescript-configuration.git"
   },
   "keywords": [
     "Prettier",

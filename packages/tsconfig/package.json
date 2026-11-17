@@ -18,5 +18,9 @@
     "CodeStyle"
   ],
   "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotmh/shared-typescript-configuration.git"
+  },
   "license": "Apache-2.0"
 }
